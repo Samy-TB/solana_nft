@@ -74,7 +74,7 @@ After that you can open http://localhost:3000/ in your browser to see a storefro
 ## Setting up the Store ID
 When opening a store for the first time you will be asked to connect your wallet. Click the Connect button and follow the steps to get connected.
 
-![Connect your wallet](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/Screen%20Shot%202022-06-23%20at%202.09.13%20PM.png?raw=true)
+![Connect your wallet](https://github.com/Samy-TB/solana_nft/blob/main/connect.png?raw=true)
 
 <br>
 
@@ -84,9 +84,9 @@ Once connected, the store will first run some checks to see if you've already se
 
 <br>
 
-From the wallet dropdown (Phantom pictured below), select a network (mainnet for production, testnet or devnet for practice). In this case, chose the devnet.
+From the wallet extension, go in settings and select a network (mainnet for production, testnet or devnet for practice). In this case, chose the devnet.
 
-![Chose devnet](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/init_store_2.png?raw=true)
+![Chose devnet](https://github.com/Samy-TB/solana_nft/blob/main/devnet.png?raw=true)
 
 <br>
 
@@ -118,7 +118,7 @@ Once you have finished with a store configuration, you will be able to Create an
 
 Click on your wallet and then click on create. You should land on a page that looks like the gif bellow.
 
-# INSERT CREATE HERE
+![Create new item from wallet](https://github.com/Samy-TB/solana_nft/blob/main/create.png?raw=true)
 
 ![Create new item](https://docs.metaplex.com/assets/images/intro-554377abde29ddfc864118f55312e960.gif)
 
