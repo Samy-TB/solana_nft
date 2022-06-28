@@ -80,7 +80,7 @@ When opening a store for the first time you will be asked to connect your wallet
 
 Once connected, the store will first run some checks to see if you've already set up a store. After a minute or so, a welcome screen is presented with an Init Store button.
 
-![Setting up store ID](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/init-store-81f85d48f20fbd8de51823fa57c58bc7.png?raw=true)
+![Setting up store ID](https://docs.metaplex.com/assets/images/init-store-81f85d48f20fbd8de51823fa57c58bc7.png)
 
 <br>
 
@@ -92,16 +92,16 @@ From the wallet dropdown (Phantom pictured below), select a network (mainnet for
 
 Click the Init Store button. This starts the store initialization process by prompting you to approve a transaction from your wallet. After approval, your store initialization begins which may take 1-2 minutes.
 
-![Init store](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/init_store_3.png?raw=true)
+![Init store](https://docs.metaplex.com/assets/images/approve-transaction-22bfae825bc87ab87f753cda1e4ddef3.png)
 
 <br>
 
 After store initialization completes, you must save your new store addresses. In the Store configuration section on the store page click on the Copy button and paste in the .env file in js/packages/web.
 
-![Save new store address](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/init_store_4.png?raw=true)
+![Save new store address](https://docs.metaplex.com/assets/images/save-env-779ff7bc440083b9183767d984da70f0.png)
 
 
-![Save new store address](https://github.com/Samy-TB/storefront/blob/master/readme%20assets/init_store_5.png?raw=true)
+![Save new store address](https://docs.metaplex.com/assets/images/set-env-601f5c84f96f63beef7068cfbcec2e01.png)
 
 Now restart your webserver (Ctrl + C + yarn start) for the .env changes to take affect.
 
