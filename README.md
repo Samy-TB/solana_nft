@@ -1598,6 +1598,7 @@ Countdown to the end of the mint:
 ![End of mint](https://docs.metaplex.com/assets/images/EndSettings-1-a30fb4d205d08a828d0258fa5a67cd8c.png)
 
 End settings date reached, mint stopped:
+
 ![End settings date](https://docs.metaplex.com/assets/images/EndSettings-2-a0cc26863ff1efa26e3211915d4b9a4a.png)
 
 <br>
