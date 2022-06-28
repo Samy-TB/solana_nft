@@ -1529,9 +1529,9 @@ Once your `REACT_APP_CANDY_MACHINE_ID` has been updated. Rename `.env.example` t
 
 <br>
 
->:stop_sign: WARNING :stop_sign:
-<br>
-The public RPC endpoints (`https://api.mainnet-beta.solana.com` and `https://api.devnet.solana.com`) are not suitable for Candy Machine mints and may cause significant issues to your minting site. We strongly recommend that you use a custom RPC endpoint for your mint. You can find more information about the custom RPC solutions in the RPC section of our [community docs](https://docs.metaplex.com/community#rpc).
+> :stop_sign: WARNING :stop_sign:
+> <br>
+> The public RPC endpoints (`https://api.mainnet-beta.solana.com` and `https://api.devnet.solana.com`) are not suitable for Candy Machine mints and may cause significant issues to your minting site. We strongly recommend that you use a custom RPC endpoint for your mint. You can find more information about the custom RPC solutions in the RPC section of our [community docs](https://docs.metaplex.com/community#rpc).
 
 <br>
 
@@ -1539,9 +1539,9 @@ After these changes are made, run the command yarn install && yarn start inside 
 
 <br>
 
->:stop_sign: WARNING :stop_sign:
-<br>
-We **strongly** recommend that you keep the standard implementation for the mint button functionality when using captcha (`gatekeeper`) settings. This will guarantee that the captcha tokens are issued at the correct time (e.g., after the mint begins). The `CMv2` is designed to reject captcha tokens that are created before the mint is live to avoid bots pre-solving captchas - your transaction will fail if the token is created at the wrong time.
+> :stop_sign: WARNING :stop_sign:
+> <br>
+> We **strongly** recommend that you keep the standard implementation for the mint button functionality when using captcha (`gatekeeper`) settings. This will guarantee that the captcha tokens are issued at the correct time (e.g., after the mint begins). The `CMv2` is designed to reject captcha tokens that are created before the mint is live to avoid bots pre-solving captchas - your transaction will fail if the token is created at the wrong time.
 
 <br>
 
